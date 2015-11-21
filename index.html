@@ -2,16 +2,18 @@
 <html>
 	<head>
 		<title>Soapstone Simulator</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="reset.css"/>
 		<link rel="stylesheet" href="soapstone-simulator.css"/>
 		<script src="ds1.js"></script>
 		<script src="soapstone-simulator.js"></script>
 	</head>
 	<body onload="create(ds1)">
-		<div id="phrase"><p id="phraseText"></p></div>
+		<div id="phrase" class="menu"><p id="phraseText"></p></div>
 		<div id="phraseMenu">
-			<div id="prefixes"></div>
-			<div id="suffixCategories"></div>
-			<div id="suffixes"></div>
+			<table id="prefixes" class="menu"></table>
+			<table id="suffixCategories" class="menu"></table>
+			<table id="suffixes" class="menu"></table>
 		</div>
 	</body>
 </html>

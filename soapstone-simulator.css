@@ -1,83 +1,83 @@
-#phrase
+table
 {
-	background-image: url("background.png");
+	table-layout: fixed;
+}
+
+body
+{
+	/*
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	*/
+}
+
+.menu
+{
+	background-image: url("menuBackground.png");
 	background-repeat: repeat;
 
-	border: 1px solid black;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
 
-	padding: 5px;
-
-	margin-bottom: 5px;
+	box-shadow: 5px 5px 10px #000000;
 
 	color: white;
 }
 
+.menuItem
+{
+	color: white;
+
+	cursor: pointer;
+}
+
+.menuItem:hover
+{
+	background-color: #642F0F;
+}
+
+#phrase
+{
+	padding: 15px;
+
+	margin: 0.5%;
+
+	width: 98.5%;
+}
+
 #prefixes
 {
-	background-image: url("background.png");
-	background-repeat: repeat;
+	border-collapse: separate;
+	border-spacing: 2px 4px;
 
-	border: 1px solid red;
-
-	padding: 0.5%;
-
+	margin-left: 0.5%;
 	margin-right: 0.5%;
 
 	float: left;
-	width: 45%;
-
-	color: red;
+	width: 44%;
 }
 
 #suffixCategories
 {
 	display: none;
 
-	background-image: url("background.png");
-	background-repeat: repeat;
-
-	border: 1px solid blue;
-
-	padding: 0.5%;
+	border-collapse: separate;
+	border-spacing: 2px 4px;
 
 	margin-right: 0.5%;
 
 	float: left;
-	width: 20%;
-
-	color: blue;
+	width: 18.5%;
 }
 
 #suffixes
 {
 	display: none;
 
-	background-image: url("background.png");
-	background-repeat: repeat;
-
-	border: 1px solid green;
-
-	padding: 0.5%;
+	border-collapse: separate;
+	border-spacing: 2px 4px;
 
 	float: left;
-	width: 30.5%;
-
-	color: green;
-}
-
-#menuItem
-{
-	color: white;
-
-	margin-bottom: 2px;
-
-	border-top: 2px solid #996600;
-	border-bottom: 2px solid #996600;
-
-	cursor: pointer;
-}
-
-#menuItem:hover
-{
-	background-color: #642F0F;
+	width: 33.5%;
 }
